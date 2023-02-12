@@ -1,7 +1,7 @@
 document.addEventListener("click", function(e) {
     const body = document.getElementsByTagName('body')[0];
     let x = e.clientX;
-    let y = e.clientY;
+    let y = e.clientY + window.pageYOffset;
     const size = 500;
 
     const canvas = document.createElement('canvas');

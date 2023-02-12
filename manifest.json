@@ -1,9 +1,10 @@
 {
   "manifest_version": 3,
   "name": "Fanfare",
-  "version": "1.0",
-  "description": "Show fireworks on click",
+  "version": "0.0.1",
+  "description": "Show fireworks on mouse click",
   "icons": {
+    "128": "images/icon-128.png",
     "512": "images/icon-512.png"
   },
   "content_scripts": [
