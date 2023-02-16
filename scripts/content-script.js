@@ -12,6 +12,7 @@ document.addEventListener("click", function(e) {
     canvas.style.height = `${size}px`;
     canvas.style.width = `${size}px`;
     canvas.style.backgroundColor = 'rgba(0, 0, 0, 0)';
+    canvas.style.zIndex = 9000;
 
     body.appendChild(canvas);
 
