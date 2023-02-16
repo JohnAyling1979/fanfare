@@ -95,9 +95,6 @@ document.addEventListener("click", function(e) {
         },
     ];
 
-    // var audio = new Audio('https://drive.google.com/file/d/1VZ2puo-M6LWqv93vxtPGXPL8zN3IdVYD/view?usp=sharing');
-    // audio.play();
-
     const interval = setInterval(() => {
         particals.forEach((partical, index) => {
             ctx.fillStyle = 'rgba(0, 0, 0, 0)';
